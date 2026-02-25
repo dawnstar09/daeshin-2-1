@@ -106,27 +106,6 @@ export default function HomePage() {
           </motion.div>
         ))}
       </motion.div>
-
-      {/* Quick Stats */}
-      <motion.div
-        initial={{ opacity: 0, y: 20 }}
-        animate={{ opacity: 1, y: 0 }}
-        transition={{ delay: 0.6 }}
-        className="mt-16 grid grid-cols-1 md:grid-cols-3 gap-6"
-      >
-        <Card className="p-6 text-center">
-          <div className="text-3xl font-bold text-toss-blue mb-2">2-5</div>
-          <div className="text-sm text-toss-gray-600">우리 반</div>
-        </Card>
-        <Card className="p-6 text-center">
-          <div className="text-3xl font-bold text-toss-blue mb-2">30명</div>
-          <div className="text-sm text-toss-gray-600">학생 수</div>
-        </Card>
-        <Card className="p-6 text-center">
-          <div className="text-3xl font-bold text-toss-blue mb-2">2026</div>
-          <div className="text-sm text-toss-gray-600">학년도</div>
-        </Card>
-      </motion.div>
     </div>
   )
 }
