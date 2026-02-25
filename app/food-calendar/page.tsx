@@ -276,6 +276,7 @@ export default function FoodCalendarPage() {
           </div>
           {dinnerImage ? (
             <div className="relative">
+              {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
                 src={dinnerImage.url}
                 alt="석식 사진"
