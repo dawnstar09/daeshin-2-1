@@ -67,7 +67,7 @@ export default function HomePage() {
         className="text-center mb-16"
       >
         <h1 className="text-5xl font-bold text-toss-gray-900 dark:text-toss-gray-50 mb-4">
-          대신고 2-5반 🎓
+          대신고 2-1반 🎓
         </h1>
         <p className="text-xl text-toss-gray-600 dark:text-toss-gray-300">
           우리 반을 위한 스마트 클래스 관리 시스템
@@ -97,9 +97,6 @@ export default function HomePage() {
                       {menuItem.description}
                     </p>
                   </div>
-                  <svg className="w-5 h-5 text-toss-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
-                  </svg>
                 </div>
               </Card>
             </Link>

@@ -5,7 +5,7 @@
 ## 1. Firebase Console에서 Storage 활성화
 
 1. [Firebase Console](https://console.firebase.google.com/) 접속
-2. 프로젝트 선택 (daeshin2-5)
+2. 프로젝트 선택 (daeshin2-1)
 3. 왼쪽 메뉴에서 **Build** > **Storage** 클릭
 4. **시작하기** 버튼 클릭
 5. 보안 규칙 모드 선택:
@@ -84,7 +84,7 @@ storage/
 `.env.local` 파일에 다음 변수가 올바르게 설정되어 있는지 확인:
 
 ```env
-NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET=daeshin2-5.firebasestorage.app
+NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET=daeshin2-1.firebasestorage.app
 ```
 
 ## 5. 사용 방법

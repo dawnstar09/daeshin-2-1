@@ -25,9 +25,9 @@ export default function Header() {
           {/* Logo */}
           <Link href="/" className="flex items-center space-x-2">
             <div className="w-8 h-8 bg-toss-blue rounded-lg flex items-center justify-center">
-              <span className="text-white font-bold text-lg">2-5</span>
+              <span className="text-white font-bold text-lg">2-1</span>
             </div>
-            <span className="font-bold text-xl text-toss-gray-900 dark:text-toss-gray-50">대신고 2-5</span>
+            <span className="font-bold text-xl text-toss-gray-900 dark:text-toss-gray-50">대신고 2-1</span>
           </Link>
 
           {/* Navigation */}

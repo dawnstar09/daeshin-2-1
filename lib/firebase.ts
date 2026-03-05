@@ -13,10 +13,19 @@ const firebaseConfig = {
 };
 
 // Firebase 앱 초기화 (중복 초기화 방지)
-const app = getApps().length === 0 ? initializeApp(firebaseConfig) : getApps()[0];
+let app;
+let database;
+let storage;
+
+try {
+  app = getApps().length === 0 ? initializeApp(firebaseConfig) : getApps()[0];
+  database = getDatabase(app);
+  storage = getStorage(app);
+} catch (error) {
+  console.error('Firebase initialization error:', error);
+}
 
 // Firebase 서비스
-export const database = getDatabase(app);
-export const storage = getStorage(app);
+export { database, storage };
 
 export default app;
